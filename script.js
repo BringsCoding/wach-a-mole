@@ -5,7 +5,7 @@ const score = document.querySelector("#score");
 const body = document.body;
 
 let result = 0;
-let CurrentTime = 10;
+let CurrentTime = 30;
 let HitPositon;
 let TimerId = null;
 
@@ -45,7 +45,7 @@ function countDonw() {
     clearInterval(countDonwTimeId);
     clearInterval(TimerId);
 
-    alert("Spiel ist vorbei " + result);
+    alert("Spiel ist vorbei sie haben " + result  + " getroffen");
   }
 }
 
